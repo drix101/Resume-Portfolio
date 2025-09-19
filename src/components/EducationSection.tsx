@@ -1,6 +1,4 @@
-import React from 'react'
 import { GraduationCapIcon, CalendarIcon, MapPinIcon } from 'lucide-react'
-
 
 const educationData = [
   {

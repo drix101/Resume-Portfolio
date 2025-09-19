@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react'
-import { GithubIcon, LinkedinIcon, TwitterIcon, MailIcon, MessageCircle  } from 'lucide-react'
+import { useEffect, useRef } from 'react'
+import { GithubIcon, LinkedinIcon, TwitterIcon, MailIcon } from 'lucide-react'
 import Typed from 'typed.js'
 
 export function HeroSection() {

@@ -1,4 +1,3 @@
-import React from 'react'
 export function AboutSection() {
   return (
     <section id="aboutme" className="min-h-screen flex items-center pt-16 bg-gradient-to-br from-[#111827] to-[#0f172a]">
