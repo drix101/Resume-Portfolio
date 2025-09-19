@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { ExternalLinkIcon, GithubIcon } from 'lucide-react'
 const projects = [
   {
