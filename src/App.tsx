@@ -4,10 +4,10 @@ import { AboutSection } from './components/AboutSection'
 import { EducationSection } from './components/EducationSection'
 import { ProjectsSection } from './components/ProjectSection'
 import { SkillsSection } from './components/SkillsSection'
-import ContactSection  from './components/ContactSection'
+import ContactSection from './components/ContactSection'
 import { Footer } from './components/Footer'
 
-export function App() {
+function App() {
   return (
     <div className="bg-background text-foreground min-h-screen">
        <Header />

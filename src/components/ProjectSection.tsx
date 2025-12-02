@@ -22,7 +22,7 @@ const projects = [
     description:
       'A mobile application for managing daily tasks, with reminders and progress tracking.',
     technologies: ['React','Typescript', 'Zustand', 'TailwindCSS'],
-    liveLink: 'https://task-manager-rosy-eta-95.vercel.app/',
+    liveLink: 'https://task-management-beta-five.vercel.app/',
     githubLink: 'https://github.com/drix101/Task-Management.git',
   },
   {
