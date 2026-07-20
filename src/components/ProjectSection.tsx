@@ -15,15 +15,14 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Task Management Application',
-    category: 'Web Design',
-    image:
-      '/Image/task-manager.png',
+    title: 'RealtyVest Investment Platform',
+    category: 'Web Development',
+    image: '/Image/RealtyVest.png',
     description:
-      'A mobile application for managing daily tasks, with reminders and progress tracking.',
-    technologies: ['React','Typescript', 'Zustand', 'TailwindCSS'],
-    liveLink: 'https://task-management-beta-five.vercel.app/',
-    githubLink: 'https://github.com/drix101/Task-Management.git',
+      'A full-featured investment platform that allows users to buy, sell, and invest in real estate properties.',
+    technologies: ['React', 'Tailwind', 'CSS', 'Javascript'],
+    liveLink: 'https://realty-vest-investment-platform.vercel.app/',
+    githubLink: 'https://github.com/drix101/RealtyVest-Investment-Platform.git',
   },
   {
     id: 3,
@@ -39,6 +38,18 @@ const projects = [
   },
   {
     id: 4,
+    title: 'Law Firm Website',
+    category: 'Web Design',
+    image:
+      '/Image/law-firm.png',
+    description:
+      'A law firm website that allows users to view the law firm\'s services and contact the law firm.',
+    technologies: ['HTML', 'Bootstrap', 'CSS', 'Javascript'],
+    liveLink: 'https://okoro-partners-law-firm.vercel.app/',
+    githubLink: 'https://github.com/drix101/okoro-partners-law-firm',
+  },
+  {
+    id: 5,
     title: 'Weather Dashboard',
     category: 'Web Design',
     image: '/Image/weather.png',
@@ -49,16 +60,17 @@ const projects = [
     githubLink: 'https://github.com/drix101/Weather-Dashboard.git',
   },
   {
-    id: 5,
-    title: 'RealtyVest Investment Platform',
-    category: 'Web Development',
-    image: '/Image/RealtyVest.png',
+    id: 6,
+    title: 'Task Management Application',
+    category: 'Web Design',
+    image:
+      '/Image/task-manager.png',
     description:
-      'A full-featured investment platform that allows users to buy, sell, and invest in real estate properties.',
-    technologies: ['React', 'Tailwind', 'CSS', 'Javascript'],
-    liveLink: 'https://realty-vest-investment-platform.vercel.app/',
-    githubLink: 'https://github.com/drix101/RealtyVest-Investment-Platform.git',
-  }
+      'A mobile application for managing daily tasks, with reminders and progress tracking.',
+    technologies: ['React','Typescript', 'Zustand', 'TailwindCSS'],
+    liveLink: 'https://task-management-beta-five.vercel.app/',
+    githubLink: 'https://github.com/drix101/Task-Management.git',
+  },
 ]
 const categories = ['All', 'Web Development', 'Web Design']
 export function ProjectsSection() {
