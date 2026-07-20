@@ -39,7 +39,7 @@ const projects = [
   {
     id: 4,
     title: 'Law Firm Website',
-    category: 'Web Design',
+    category: 'Web Development',
     image:
       '/Image/law-firm.png',
     description:
